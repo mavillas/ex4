@@ -7,7 +7,7 @@ $(document).ready(function () {
     console.log('ready');
 
     $('main#container').slideDown(400,function(){
-       $(this).animate({'top': '15%', 'opacity':'1'}, 1000, 'swing');
+       $(this).animate({'top': '13%', 'opacity':'1'}, 1000, 'swing');
      });
 
 //hide descriptions
