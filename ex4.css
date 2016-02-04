@@ -1,0 +1,191 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: montserrat;
+    margin: 100px auto 0px auto;
+    width: 1200px
+}
+
+header h1,
+header p {
+    margin-left: 5px;
+}
+
+header h1 {
+    color: black;
+}
+
+header p {
+    padding: 0;
+    color: #747474;
+    margin-bottom: 20px;
+}
+
+article {
+    text-align: center;
+}
+
+section#phone,
+section#card,
+section#key,
+section#notebook,
+section#charger {
+    margin: 0 -3px;
+    width: 2.5in;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: text-top;
+    cursor:pointer;
+}
+
+#phone {
+    background-color: #E45F56;
+    background-image: url(images/iphone_white.png);
+    border-top-left-radius: 10px;
+}
+
+#card {
+    background-color: #A3D39C;
+    background-image: url(images/card_white.png);
+}
+
+#key {
+    background-color: #7ACCC8;
+    background-image: url(images/key_white.png);
+}
+
+#notebook {
+    background-color: #4AAAA5;
+    background-image: url(images/sketchbook_white.png);
+}
+
+#charger {
+    background-color: #35404F;
+    background-image: url(images/charger_white.png);
+    border-top-right-radius: 10px;
+}
+
+#phone:hover,
+#card:hover,
+#key:hover,
+#notebook:hover,
+#charger:hover {
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.48);
+}
+
+#phone:hover {
+    background-color: #d9564d;
+}
+
+#card:hover {
+    background-color: #93be8c;
+}
+
+#key:hover {
+    background-color: #6bb7b3;
+}
+
+#notebook:hover {
+    background-color: #419893;
+}
+
+#charger:hover {
+    background-color: #455469;
+}
+
+section#phone_text,
+section#card_text,
+section#key_text,
+section#notebook_text,
+section#charger_text {
+    margin-top: 200px;
+    padding-top: 10px;
+    border-top:1px dotted white;
+}
+
+#phone_text {
+    background-color: #E45F56;
+    border-bottom-left-radius: 10px;
+}
+
+#card_text {
+    background-color: #A3D39C;
+}
+
+#key_text {
+    background-color: #7ACCC8;
+}
+
+#notebook_text {
+    background-color: #4AAAA5;
+}
+
+#charger_text {
+    background-color: #35404F;
+    border-bottom-right-radius: 10px;
+}
+
+#phone_text,
+#card_text,
+#key_text,
+#notebook_text,
+#charger_text {
+    text-align: left;
+}
+
+.hide h1,
+.hide p {
+    padding: 10px 17px;
+    font-weight: normal;
+    color: white;
+}
+
+.hide h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.hide p {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+#phone_text {}
+
+#card_text {}
+
+#key_text {}
+
+#notebook_text {}
+
+#charger_text {}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 44%;
+    color:#747474;
+}
+
+a:link {
+    text-decoration: none;
+    color: #747474;
+    font-size: 12px
+}
+
+a:visited {
+    color:#747474;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
